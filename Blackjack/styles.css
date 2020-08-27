@@ -1,0 +1,48 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #477148;
+    color: rgb(238, 237, 237);
+    font-size: 20px;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+
+.card {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.placeholders {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(20, 19, 19);
+    color: white;
+    border: black;
+    font-size: 120%;
+}
+
+button:hover {
+    cursor: pointer;
+    padding: 11px;
+    background: rgb(97, 97, 97);
+
+}
+
+
+
+
