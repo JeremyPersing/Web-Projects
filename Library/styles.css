@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: lightblue;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 80%;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+    background: lightgray;
+}
+
+
+
+button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
