@@ -1,0 +1,22 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
+    text-align: center;
+    background: rgb(238, 224, 177);
+}
+
+table {
+    margin-top: 80px;
+    margin: 0 auto;
+}
+
+td{
+    font-size: 250%;
+    padding: 70px;
+    border:1px solid black;
+    background: rgb(163, 161, 161);
+}
+
+td:hover {
+    background: gray;
+}
