@@ -1,0 +1,97 @@
+/* Elements */
+
+button {
+    margin: 2rem;
+    padding: 10px;
+    background-color: rgb(74, 74, 247);
+    color: rgb(255, 255, 255);
+    border: none;
+    
+}
+
+input {
+    line-height: 30px;
+    font-size: 120%;
+}
+
+p {
+    font-size: 150%;
+}
+
+/* ID's */
+#content {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 50%;
+    column-gap: 5%;
+    grid-template-areas: 
+        "left right";
+}
+
+#projectContainer {
+    grid-area: left;
+    margin-left: 2%;
+}
+
+#projectNameList {
+    margin-left: 5rem;
+}
+
+#listContainer {
+    grid-area: right;
+}
+
+/* Classes */
+.glyphicon {
+    font-size: 180%;
+}
+
+.glyphicon-remove:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.glyphicon-trash:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.glyphicon-remove {
+    margin-left: 15%;
+}
+
+.glyphicon-plus {
+    font-size: 3rem;
+}
+
+.glyphicon-plus:hover {
+    cursor: pointer;
+    color: rgb(74, 74, 247);
+}
+
+.glyphicon-unchecked:hover {
+
+    color: green;
+}
+
+.glyphicon-check:hover {
+
+    color: black;
+}
+
+.projectElement {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projectElement:hover, .taskElement:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+.taskElement {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
