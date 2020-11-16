@@ -21,7 +21,6 @@ async function getWeather() {
         const weekResponse = await fetch('https://api.openweathermap.org/data/2.5/onecall?lat=' + lat + '&lon=' + lon + '&exclude=current,minutely,hourly,alerts&units=imperial&appid=3a613209273f0897e90988fbbcc2fd04', {mode: 'cors'});
         const weekData = await weekResponse.json();
         displayWeeklyWeather(weatherData, weekData);
-        console.log(weekData)
     }  
 }
 
