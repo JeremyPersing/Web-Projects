@@ -3,7 +3,7 @@
 # Purpose
 This repository contains progress of my front end web development skills. It includes multiples vanilla js, html, and css projects, along with projects utilizing frameworks such as React and Bootstrap.
 
-# Technologies Learned
+# Technologies Used
 HTML, CSS, JavaScript, React, Bootstrap
 
 # Skills Learned
